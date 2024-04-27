@@ -7,6 +7,8 @@
     public keys encrypt, private keys decrypt" data/message ENCRYPTION.
     For digital signatures, it is the reverse. With a digital signature, you are trying to prove that the document signed by you came from you. To do that, you need to use something that only YOU have: your private key.
 
+Stack Overflow : https://stackoverflow.com/questions/18257185/how-does-a-public-key-verify-a-signature
+
 A digital signature in its simplest description is a hash (SHA1, MD5, etc.) of the data (file, message, etc.) that is subsequently encrypted with the signer's private key. Since that is something only the signer has (or should have) that is where the trust comes from. EVERYONE has (or should have) access to the signer's public key.
 
 So, to validate a digital signature, the recipient

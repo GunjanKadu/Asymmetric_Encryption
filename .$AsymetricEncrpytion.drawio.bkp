@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-04-27T08:37:27.421Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="YjH0DEp22rZJPUnaoHzs" version="24.2.5" type="device">
+<mxfile host="Electron" modified="2024-04-27T08:48:36.926Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="CwzgSn8Oo-gq42jX-GXc" version="24.2.5" type="device">
   <diagram name="Page-1" id="kJm59nHErEBBbrXmHihm">
     <mxGraphModel dx="1343" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -450,11 +450,14 @@
             <mxPoint x="760" y="2116" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XDesbRdLcn2MO-ivn1ux-186" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Decrypt Hashed Original Message&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-186" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Decrypts Hashed Original Message&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="2101" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XDesbRdLcn2MO-ivn1ux-189" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Hash&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="800" y="2101" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-191" value="&lt;ul&gt;&lt;li&gt;After receiving the message (Encrypted Message + Hashed Message with Jim&#39;s private key) Pam does the following&lt;/li&gt;&lt;li&gt;Decrypts the&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Encrypted&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;message using her own private key and creates a hash of the decrypted message&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Decrypts the Hashed Original message using Jim&#39;s public key because only Jim&#39;s public key can do it successfully.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;If someone else tries to use a different private key then Pam cannot use Jim&#39;s public key to decrypt it and thus it would not authenticate that Jim is sending the message&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;At this point Pam has 2 Hashed&lt;/li&gt;&lt;ul&gt;&lt;li&gt;One which she generated after decrypting the original message&lt;/li&gt;&lt;li&gt;Second which Jim sent signed using his private key&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Now Pam Will compare both the hashes and if they match she will deduce&lt;/li&gt;&lt;ul&gt;&lt;li&gt;The Message was not tampered on the way&lt;/li&gt;&lt;li&gt;The Original sender was Jim and not someone else.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="95" y="2320" width="990" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
