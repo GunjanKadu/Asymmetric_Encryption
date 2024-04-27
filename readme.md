@@ -4,8 +4,9 @@
 
 ## Question -> How Does a public key verify a signature
 
-    public keys encrypt, private keys decrypt" data/message ENCRYPTION.
-    For digital signatures, it is the reverse. With a digital signature, you are trying to prove that the document signed by you came from you. To do that, you need to use something that only YOU have: your private key.
+    public keys encrypt, private keys decrypt data/message ENCRYPTION.
+    For digital signatures, it is the reverse. With a digital signature, you are trying to prove that the document signed by you came from you. 
+    To do that, you need to use something that only YOU have: your private key.
 
 Stack Overflow : https://stackoverflow.com/questions/18257185/how-does-a-public-key-verify-a-signature
 
