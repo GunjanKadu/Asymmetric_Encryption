@@ -1,0 +1,465 @@
+<mxfile host="Electron" modified="2024-04-27T08:48:36.926Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="CwzgSn8Oo-gq42jX-GXc" version="24.2.5" type="device">
+  <diagram name="Page-1" id="kJm59nHErEBBbrXmHihm">
+    <mxGraphModel dx="1343" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-154" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="270" y="1596" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-153" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;+&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Hashed Original Message encrypted with Jim&#39;s Private Key&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="XDesbRdLcn2MO-ivn1ux-154">
+          <mxGeometry width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-145" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Messa&lt;/span&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ge -&amp;gt; Encrypted with Pam&#39;s Public key&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="XDesbRdLcn2MO-ivn1ux-154">
+          <mxGeometry y="7" width="190" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-15" value="&lt;b&gt;Step 1 -&amp;gt; &lt;/b&gt;Share Each others public key" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="290" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-18" value="Jim&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-19" value="Pam" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-20" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#DA4026;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="165" y="225" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-21" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#7FBA42;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="165" y="250" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-25" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Jim&#39;s Private Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="185" y="220" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-26" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Jim&#39;s Public Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="185" y="245" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-27" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#006EAF;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#1ba1e2;rotation=-90;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="525" y="225" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-28" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#B09500;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#e3c800;rotation=-90;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="525" y="250" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-29" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Pam&#39;s Private Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="220" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-30" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Pam&#39;s Public Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="545" y="245" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.009;exitY=0.145;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.01;entryY=0.157;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="XDesbRdLcn2MO-ivn1ux-18" target="XDesbRdLcn2MO-ivn1ux-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="240" as="sourcePoint" />
+            <mxPoint x="340" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-35" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#7FBA42;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="330" y="115" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-36" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Jim&#39;s Public Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="110" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;dashed=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="182" as="sourcePoint" />
+            <mxPoint x="280" y="182" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-38" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#B09500;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#e3c800;rotation=-90;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="330" y="165" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-39" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Pam&#39;s Public Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="160" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-40" value="&lt;b&gt;Jim and Pam wants to share Confidential Data using asymmetric encryption&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="165" y="8" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-43" value="&lt;b&gt;Step 2 -&amp;gt; &lt;/b&gt;Jims Sends message encrypted with Pam&#39;s Public key" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="580" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDesbRdLcn2MO-ivn1ux-44" target="XDesbRdLcn2MO-ivn1ux-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-44" value="Jim&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="385" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-45" value="Pam" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="385" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-46" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#DA4026;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="165" y="490" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-47" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#7FBA42;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="165" y="515" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-48" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Jim&#39;s Private Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="185" y="485" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-49" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Jim&#39;s Public Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="185" y="510" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-50" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#006EAF;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#1ba1e2;rotation=-90;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="525" y="490" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-51" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#B09500;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#e3c800;rotation=-90;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="525" y="515" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-52" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Pam&#39;s Private Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="485" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-53" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Pam&#39;s Public Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="545" y="510" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-55" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#7FBA42;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="525" y="545" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-56" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Jim&#39;s Public Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="545" y="540" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-58" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#B09500;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#e3c800;rotation=-90;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="165" y="540" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-59" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Pam&#39;s Public Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="185" y="535" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-62" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;b&gt;Message -&amp;gt; Encrypted with Pam&#39;s Public key&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="410" width="190" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-63" value="&lt;b&gt;Step 3 -&amp;gt; &lt;/b&gt;Pam can decrypt the message using her private key securely" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="865" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDesbRdLcn2MO-ivn1ux-65" target="XDesbRdLcn2MO-ivn1ux-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-65" value="Jim&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="670" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDesbRdLcn2MO-ivn1ux-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-66" value="Pam" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="670" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-67" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#DA4026;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="165" y="775" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-68" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#7FBA42;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="165" y="800" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-69" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Jim&#39;s Private Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="185" y="770" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-70" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Jim&#39;s Public Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="185" y="795" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-71" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=default;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#1ba1e2;rotation=-90;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="580" y="766" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-72" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#B09500;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#e3c800;rotation=-90;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="525" y="800" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDesbRdLcn2MO-ivn1ux-73" target="XDesbRdLcn2MO-ivn1ux-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-73" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Pam&#39;s Private Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="770" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-74" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Pam&#39;s Public Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="545" y="795" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-75" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#7FBA42;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="525" y="830" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-76" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Jim&#39;s Public Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="545" y="825" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-77" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#B09500;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#e3c800;rotation=-90;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="165" y="825" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-78" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Pam&#39;s Public Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="185" y="820" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-79" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;b&gt;Message -&amp;gt; Encrypted with Pam&#39;s Public key&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="695" width="190" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-82" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Decrypt Message&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="695" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDesbRdLcn2MO-ivn1ux-85" target="XDesbRdLcn2MO-ivn1ux-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-85" value="Jim&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDesbRdLcn2MO-ivn1ux-87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-87" value="Pam" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-88" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#DA4026;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1295" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-89" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#7FBA42;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1320" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-90" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Jim&#39;s Private Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="1290" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-91" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Jim&#39;s Public Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="1315" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-92" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=default;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#1ba1e2;rotation=-90;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1286" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-93" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#B09500;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#e3c800;rotation=-90;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="485" y="1320" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDesbRdLcn2MO-ivn1ux-95" target="XDesbRdLcn2MO-ivn1ux-102">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-95" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Pam&#39;s Private Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1290" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-96" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Pam&#39;s Public Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="505" y="1315" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-97" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#7FBA42;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="485" y="1350" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-98" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Jim&#39;s Public Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="505" y="1345" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-99" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#B09500;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#e3c800;rotation=-90;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1345" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-100" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Pam&#39;s Public Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="1340" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-101" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;b&gt;Message -&amp;gt; Encrypted with Pam&#39;s Public key&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1215" width="190" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-102" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Decrypt Message&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1215" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-123" value="&lt;b&gt;Problem -&amp;gt; &lt;/b&gt;Anyone else can pretend to be Jim and try to send message to Pam using her public key" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1000" width="560" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-124" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4" y="960" as="sourcePoint" />
+            <mxPoint x="824" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-125" value="Fake Jim" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1070" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XDesbRdLcn2MO-ivn1ux-125" target="XDesbRdLcn2MO-ivn1ux-87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="245" y="1117.27" as="sourcePoint" />
+            <mxPoint x="485" y="1117.27" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-127" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;b&gt;Fake Message -&amp;gt; Encrypted with Pam&#39;s Public key&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="265" y="1102.27" width="225" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDesbRdLcn2MO-ivn1ux-129" target="XDesbRdLcn2MO-ivn1ux-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-129" value="Jim&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1620" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDesbRdLcn2MO-ivn1ux-131">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-131" value="Pam" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1620" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-132" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#DA4026;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1725" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-133" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#7FBA42;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1750" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-134" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Jim&#39;s Private Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="1720" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-135" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Jim&#39;s Public Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="1745" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-136" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=default;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#1ba1e2;rotation=-90;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="539" y="1716" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-137" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#B09500;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#e3c800;rotation=-90;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="485" y="1750" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDesbRdLcn2MO-ivn1ux-139" target="XDesbRdLcn2MO-ivn1ux-146">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="1680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-139" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Pam&#39;s Private Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1720" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-140" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Pam&#39;s Public Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="505" y="1745" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-141" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#7FBA42;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="485" y="1780" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-142" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Jim&#39;s Public Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="505" y="1775" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-143" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#B09500;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#e3c800;rotation=-90;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1775" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-144" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Pam&#39;s Public Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="1770" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-146" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Decrypt Message&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1645" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-147" value="Fake Jim" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1500" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XDesbRdLcn2MO-ivn1ux-147" target="XDesbRdLcn2MO-ivn1ux-131">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="245" y="1547.27" as="sourcePoint" />
+            <mxPoint x="485" y="1547.27" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-149" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;b&gt;Fake Message -&amp;gt; Encrypted with Pam&#39;s Public key&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="265" y="1532.27" width="225" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-150" value="&lt;b&gt;Solution&amp;nbsp;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1450" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-155" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;1. Instead of just sending Message encrypted with Pam&#39;s Public key. Jim also send one additional piece of data&lt;/font&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;2. He also sends a Hash of the original message encrypted with his private key&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;3. Fake Jim cannot send a Hashed fake message using original Jim&#39;s private key because he has no access to it.&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1840" width="570" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-156" value="&lt;b&gt;Step 1&amp;nbsp;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1800" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-157" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="270" y="2101" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-158" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;+&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Hashed Original Message encrypted with Jim&#39;s Private Key&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="XDesbRdLcn2MO-ivn1ux-157">
+          <mxGeometry width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-159" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Messa&lt;/span&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ge -&amp;gt; Encrypted with Pam&#39;s Public key&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="XDesbRdLcn2MO-ivn1ux-157">
+          <mxGeometry y="7" width="190" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDesbRdLcn2MO-ivn1ux-161" target="XDesbRdLcn2MO-ivn1ux-163">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-161" value="Jim&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2125" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDesbRdLcn2MO-ivn1ux-163">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="2165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-190" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDesbRdLcn2MO-ivn1ux-163" target="XDesbRdLcn2MO-ivn1ux-186">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-163" value="Pam" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="2125" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-164" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#DA4026;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="125" y="2230" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-165" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#7FBA42;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="125" y="2255" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-166" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Jim&#39;s Private Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="2225" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-167" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Jim&#39;s Public Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="2250" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-168" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=default;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#1ba1e2;rotation=-90;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="540" y="2220" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-169" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#B09500;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#e3c800;rotation=-90;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="486" y="2263" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-170" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDesbRdLcn2MO-ivn1ux-171" target="XDesbRdLcn2MO-ivn1ux-177">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="2185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-171" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Pam&#39;s Private Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="2225" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-172" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Pam&#39;s Public Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="506" y="2258" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-173" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#7FBA42;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="538" y="2286" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDesbRdLcn2MO-ivn1ux-174" target="XDesbRdLcn2MO-ivn1ux-186">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-174" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Jim&#39;s Public Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="503" y="2290" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-175" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#B09500;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#e3c800;rotation=-90;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="125" y="2280" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-176" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Pam&#39;s Public Key&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="2275" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.056;entryY=0.509;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XDesbRdLcn2MO-ivn1ux-177" target="XDesbRdLcn2MO-ivn1ux-185">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="2165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-177" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Decrypt Message&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="2150" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-178" value="Fake Jim" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2005" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-179" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XDesbRdLcn2MO-ivn1ux-178" target="XDesbRdLcn2MO-ivn1ux-163">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="245" y="2052.27" as="sourcePoint" />
+            <mxPoint x="485" y="2052.27" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-180" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;b&gt;Fake Message -&amp;gt; Encrypted with Pam&#39;s Public key&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="265" y="2037.27" width="225" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-182" value="&lt;b&gt;Step 2&amp;nbsp;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="2305" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-185" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Generate Hash&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="2150" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDesbRdLcn2MO-ivn1ux-186" target="XDesbRdLcn2MO-ivn1ux-189">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="2116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-186" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Decrypts Hashed Original Message&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="2101" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-189" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Hash&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="2101" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDesbRdLcn2MO-ivn1ux-191" value="&lt;ul&gt;&lt;li&gt;After receiving the message (Encrypted Message + Hashed Message with Jim&#39;s private key) Pam does the following&lt;/li&gt;&lt;li&gt;Decrypts the&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Encrypted&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;message using her own private key and creates a hash of the decrypted message&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Decrypts the Hashed Original message using Jim&#39;s public key because only Jim&#39;s public key can do it successfully.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;If someone else tries to use a different private key then Pam cannot use Jim&#39;s public key to decrypt it and thus it would not authenticate that Jim is sending the message&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;At this point Pam has 2 Hashed&lt;/li&gt;&lt;ul&gt;&lt;li&gt;One which she generated after decrypting the original message&lt;/li&gt;&lt;li&gt;Second which Jim sent signed using his private key&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Now Pam Will compare both the hashes and if they match she will deduce&lt;/li&gt;&lt;ul&gt;&lt;li&gt;The Message was not tampered on the way&lt;/li&gt;&lt;li&gt;The Original sender was Jim and not someone else.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="95" y="2320" width="990" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
