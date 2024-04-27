@@ -31,3 +31,7 @@ You have two choices here:
 <li>You can accept the properties above--just like you accept Newton's 3 laws of motion without needing to derive them yourself.</li>
 
 In conclusion, a public/private keypair is created using elliptic curve cryptography, which by nature, creates a public and private key that are **mathematically linked in both direction**, but not **mathematically derived in both directions**. This is what makes it possible for you to use someone's public key to verify that they signed a specific message, without them exposing their private key to you.
+
+## Scenario
+
+![Jim and Pam](https://github.com/GunjanKadu/Asymmetric_Encryption_With_Node_JSS/blob/main/AsymetricEncrpytion.png)
