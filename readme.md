@@ -5,7 +5,7 @@
 ## Question -> How Does a public key verify a signature
 
     public keys encrypt, private keys decrypt data/message ENCRYPTION.
-    For digital signatures, it is the reverse. With a digital signature, you are trying to prove that the document signed by you came from you. 
+    For digital signatures, it is the reverse. With a digital signature, you are trying to prove that the document signed by you came from you.
     To do that, you need to use something that only YOU have: your private key.
 
 Stack Overflow : https://stackoverflow.com/questions/18257185/how-does-a-public-key-verify-a-signature
@@ -36,3 +36,7 @@ In conclusion, a public/private keypair is created using elliptic curve cryptogr
 ## Scenario
 
 ![Jim and Pam](https://github.com/GunjanKadu/Asymmetric_Encryption_With_Node_JSS/blob/main/AsymetricEncrpytion.png)
+
+## Question -> How Does Https Works and why is it secure?
+
+![HTTPS](https://github.com/GunjanKadu/Asymmetric_Encryption_With_Node_JSS/blob/main/Https.png)
